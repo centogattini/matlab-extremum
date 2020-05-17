@@ -1,0 +1,1 @@
+function F=firstTask(x)global par T;F = exp(-par.*x.^2).*cos(x.^2);mu = num2str(par);T = ['exp(-\mu x^2)cos x^2, \mu=', mu];end
